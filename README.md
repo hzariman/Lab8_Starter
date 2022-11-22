@@ -5,4 +5,6 @@ Hariz Megat Zariman
    
 2. No. By definition of E2E testing, we are looking to test our program on user bheavior and not necessarily the output of a function.
 
-3. 
+3. No. In this case, we are more concerned with the user being able to see their messages and interact with each other on a messaging application and thus are considering user behavior. For this reason, it is more appropriate to use E2E testing.
+
+4. Yes. This is because the max length feature can be viewed more as a constraint (i.e something that the user should not be able to exceed) and can be tested as an output of a function. Furthermore, this feature appears more as an isolated event that is not heaviliy reliant on other features and is thus easier to test in smaller cases hence unit tests.
